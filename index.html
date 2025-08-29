@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quote Generator</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css">
+</head>
+<body>
+  <div class="container">
+    <div class="quote-box">
+      <h2 class="title">Quote Generator</h2>
+      <hr class="line-break">
+
+      <div class="quote">
+        <i class="fa-solid fa-quote-left"></i>
+        <p id="quote-text">Click generate to see a new quote!</p>
+        <i class="fa-solid fa-quote-right"></i>
+      </div>
+
+      <p id="author">- Unknown</p>
+
+      <div class="btns">
+        <button type="button" class="btn btn-copy" onclick="copyQuote()">Copy Quote <i class="fa-solid fa-copy"></i></button>
+        <button type="button" class="btn btn-generate" onclick="generateQuote()">Generate Quote <i class="fa-solid fa-repeat"></i></button>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
